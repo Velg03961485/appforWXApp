@@ -1,0 +1,104 @@
+
+
+.login-page{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.I_login{
+  width: 664px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.I_loginTit{
+  height: 46px;
+  opacity: 1;
+  font-size: 48px;
+  font-family: PingFang SC Medium, PingFang SC Medium-Medium;
+  font-weight: 500;
+  text-align: left;
+  color: #333333;  
+  // margin-top: 85px;                               
+}
+.I_loginText{
+  
+}
+
+
+
+.P_login{
+  width: 484px;
+  height: 318px;
+  opacity: 1;
+  background: #ffffff;
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  box-shadow: 2px 2px 27px 1px rgba(0,0,0,0.10);
+  margin: 0 auto;
+  position: relative;
+}
+.P_loginTop{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.P_loginTopL{
+  height: 15px;
+  opacity: 1;
+  font-size: 14px;
+  font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+  font-weight: bold;
+  text-align: right;
+  color: #333333;
+  line-height: 30px;
+  text-shadow: 2px 2px 27px 1px rgba(0,0,0,0.10);
+  margin-top: 18px;
+  margin-left: 17px;
+}
+.P_loginTopR{
+  width: 19px;
+  height: 19px;
+  margin-top: 18px;
+  margin-right: 7px;
+}
+
+.P_loginTit{
+  height: 13px;
+  opacity: 1;
+  font-size: 12px;
+  font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+  font-weight: 400;
+  text-align: left;
+  color: #111f2c;
+  line-height: 24px;
+  text-shadow: 2px 2px 27px 1px rgba(0,0,0,0.10); 
+  margin-top: 52px;
+  margin-left: 60px;
+}
+.inputWidth{
+  width: 300px;
+  height: 32px;
+}
+
+.P_loginBot{
+  width: 100%;
+  height: 52px;
+  border-top: 1px solid #dedede;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  // align-items: flex-end;
+  align-self: flex-end;
+  position: absolute;
+  bottom: 0;
+}
+.P_loginBotSure{
+  width: 80px;
+  height: 32px;
+  margin-top: 9px;
+  margin-right: 11px;
+}

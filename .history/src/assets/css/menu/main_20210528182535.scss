@@ -1,0 +1,23 @@
+.main-page{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.mainBotMenu{
+  width: 100%;
+  height: 49px;
+  background: #ffffff;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.mainBotMenuIt{
+  display: flex;
+  flex-direction: column;
+  
+}
